@@ -1,0 +1,43 @@
+.calculator{
+text-align: center;
+color: white;
+text-decoration: solid;
+height:400px;
+width:350px;
+border: 20px solid white;
+margin-top: 180px;
+background-image: url(https://tse2.mm.bing.net/th?id=OIP.zt9K4Z89ZVYWXZSg_HEZEAHaKd&pid=Api&P=0&h=220);
+background-repeat: no-repeat;
+margin: auto;
+/* background-attachment: fixed; */
+background-size: contain;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* text-align: center; */
+    column-gap: 20px;
+    /* background-color: black; */
+color: white;}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#result{
+/* border: 05px solid white; */
+ text-align: center; 
+ height: 50px;
+ width: 250px;
+ margin: auto;
+}
+button:hover{
+    background-color: gray;
+    height: 50px;
+    width: 50px;}
+button{
+     background-color: black;
+     color: whitesmoke;
+}

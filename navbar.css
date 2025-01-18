@@ -1,0 +1,17 @@
+.navbar{
+display: grid;
+grid-template-columns: auto auto;
+justify-content:space-evenly;
+text-align: center;
+column-gap: 50px;
+background-color: aquamarine;
+padding: 30px 30px;
+
+
+
+}
+.content{
+    display: flex;
+    margin-top: 20px;
+    padding: 30px 30px;
+}

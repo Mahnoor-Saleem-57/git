@@ -1,0 +1,26 @@
+.head{
+text-align: center;
+font-size: 20px;
+background-color: goldenrod;
+color: black;
+border-style: double;
+}
+#h1{
+    font-size: 50px;
+}
+.form{
+    text-align: center;
+    background-color: black;
+    color: goldenrod;
+    height: 700px;
+    font-size: 25px;
+    border-style: double;
+align-items: center;
+margin-top: 12px;
+padding-top: 30px;
+
+}
+.input{
+    width: 200px;
+    height: 30px;
+}

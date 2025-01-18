@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.menu-card {
+    background-color: wheat;
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.menu-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.menu-item {
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
+.menu-item:last-child {
+    border-bottom: none; 
+}
+
+.item-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3d0303;
+}
+
+.item-description {
+    font-size: 14px;
+    color: #2c0303;
+    margin: 5px 0;
+}
+
+.item-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 5px;
+}

@@ -1,0 +1,70 @@
+#main{
+    display: grid;
+grid-template-columns: auto auto;
+column-gap:2px;
+row-gap: 10px;
+background-color: black;
+/* background-image:url('my2.jpeg' ); */
+background-repeat: no-repeat;
+background-size: contain;
+/* margin: 5%; */
+
+
+
+}
+#one{
+/* background-color: black; */
+padding: 90px;
+height: 450px;
+width: 360px;
+color: goldenrod;
+background-image: url('one.jpeg');
+background-repeat: no-repeat;
+background-size: 600px 600px;
+/* margin: 1%; */
+}
+#two
+{
+    /* background-color: black; */
+    padding: 90px;
+    height: 450px;
+width: 360px;
+color: white;
+background-image: url('two.jpeg');
+background-repeat: no-repeat;
+background-size: 590px 600px;
+color: darkgoldenrod;
+}
+.head {
+    font-family:inherit;
+    font-style: bold;
+    font-weight: 500;
+    font-style: oblique;
+    text-align: center;
+color: darkgoldenrod;
+font-size: 52px;
+}
+
+.para{
+    font-family:sans-serif;
+    font-style: bold;
+    font-weight: 400; 
+    text-align: center;
+    letter-spacing: 2px;
+}
+.button{
+justify-content: center;
+text-align: center;
+font-size: 25px;
+color: darkgoldenrod;
+
+}
+#submit:hover{
+    background-color:darkgoldenrod ;
+    color: black;
+}
+#submit{
+    background-color: black;
+    color: darkgoldenrod;
+    font-size: 25px;
+}

@@ -1,0 +1,26 @@
+.table{ 
+text-align: center;
+ margin:60px; padding: 20px;
+border: 2px solid red;
+background-color: black;
+}
+#div1{
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size:50px;
+ font-style: oblique;
+background-color:black;
+padding:12px;
+font-weight: 200px;
+border-style: double;
+text-align: center;
+color: white;
+
+}
+#div2{background-color:antiquewhite;
+    color:yellow;
+    font-size: 40px;
+    text-align: center;
+    padding-left: 1500px;
+    padding-right: 100px;
+
+}
